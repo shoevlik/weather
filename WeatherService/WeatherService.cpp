@@ -1,11 +1,19 @@
 ﻿// WeatherService.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
-
+#include "Weather.h"
+#include "Service.h"
+#include "JsonService.h"
 #include <iostream>
-
+#include <string>
+#include <exception>
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    setlocale(0, "Russian");
+    JsonService js;
+    Weather w = js.getWeather("weather.json");
+    w.getWeather();
+
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
