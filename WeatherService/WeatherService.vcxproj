@@ -128,10 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="JsonService.cpp" />
-<<<<<<< HEAD
-=======
     <ClCompile Include="pugixml.cpp" />
->>>>>>> feature-xml
     <ClCompile Include="Weather.cpp" />
     <ClCompile Include="WeatherService.cpp" />
     <ClCompile Include="XmlService.cpp" />
@@ -150,15 +147,6 @@
   </ItemGroup>
   <ItemGroup>
     <Xml Include="weather.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="json.hpp" />
-    <ClInclude Include="JsonService.h" />
-    <ClInclude Include="Service.h" />
-    <ClInclude Include="Weather.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="weather.json" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

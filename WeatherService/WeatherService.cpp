@@ -17,8 +17,8 @@ int main()
     w.getWeather();
 
     XmlService xs;
-    Weather w = xs.getWeather("weather.xml");
-    w.getWeather();
+    Weather w1 = xs.getWeather("weather.xml");
+    w1.getWeather();
 }
 
 
